@@ -331,7 +331,7 @@ client.on(Events.InteractionCreate, async interaction => {
 // =======================
 // LOGIN
 // =======================
-client.login(config.token).catch(err => {
+client.login(process.env.TOKEN).catch(err => {
   console.error("❌ Falha ao logar o bot:", err);
   process.exit(1);
 });
