@@ -30,8 +30,8 @@ const client = new Client({
 // =======================
 // VALIDAÇÕES INICIAIS
 // =======================
-if (!config || !config.token) {
-  console.error("❌ Token não encontrado em config.json. Use variável de ambiente ou verifique o arquivo.");
+if (!process.env.TOKEN) {
+  console.error("❌ TOKEN não encontrada na variável de ambiente.");
   process.exit(1);
 }
 const ID_STAFF = config.staffRoleId;
