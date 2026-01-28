@@ -1,0 +1,21 @@
+{
+  "mkxd941j51v9qy": {
+    "id": "mkxd941j51v9qy",
+    "guildId": "815650411859148811",
+    "channelId": "1464714289377050635",
+    "messageId": "1465886188198953053",
+    "title": "Presidencia",
+    "options": [
+      "SIM",
+      "NÃO"
+    ],
+    "votes": {
+      "1138688989646299297": 1
+    },
+    "createdAt": "2026-01-28T01:48:20.791Z",
+    "endsAt": null,
+    "active": false,
+    "anonymous": false,
+    "authorId": "1138688989646299297"
+  }
+}
